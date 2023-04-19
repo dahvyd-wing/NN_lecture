@@ -12,3 +12,9 @@ In doing these projects you may want to consider topics such as:
 
 link to fashion dataset:
 https://www.dropbox.com/sh/wannefe9ajteihd/AABb6AXca5pGVFidHUUvahQda?dl=0
+to read the dataset:
+import idx2numpy #pip install idx2numpy
+X_train = idx2numpy.convert_from_file('fashion MNIST/train-images-idx3-ubyte')
+y_train = idx2numpy.convert_from_file('fashion MNIST/train-labels-idx1-ubyte')
+X_test = idx2numpy.convert_from_file('fashion MNIST/t10k-images-idx3-ubyte')
+y_test = idx2numpy.convert_from_file('fashion MNIST/t10k-labels-idx1-ubyte')
