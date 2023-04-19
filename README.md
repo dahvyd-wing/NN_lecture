@@ -4,7 +4,9 @@ There are two assignments:
 2) Predict the position of the planets as a function of time for the dataset that can be downloaded at the following link:
 https://www.dropbox.com/s/uahmj0rr37629jd/planets_trajectories.npz?dl=0
 you can load the data set with the following line:
- data = np.load('planets_trajectories.npz')
+data = np.load('planets_trajectories.npz')
+it's a dictionary with three keys:
+['names', 'x', 'y']
 
 The data set has the orbits of 4 planets each time step is 1e-4 years and the position coordinate is given in A.U.
 
