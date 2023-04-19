@@ -9,3 +9,6 @@ In doing these projects you may want to consider topics such as:
 - Using a validation set in addition to the test set (see https://www.tensorflow.org/guide/keras/train_and_evaluate)
 - Hyperparameters: regularization, learning rate, etc. 
 - Neural Net architecture (convolution layers, etc.), preprocessing, descriptors
+
+link to fashion dataset:
+https://www.dropbox.com/sh/wannefe9ajteihd/AABb6AXca5pGVFidHUUvahQda?dl=0
